@@ -1,0 +1,170 @@
+/*
+    Autor: Mario Castro
+    App: Registro de Carros
+
+*/
+/* Fonte */
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+/* global styles */
+
+html {
+    height: 100%;
+    font-family: 'Arimo', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100px;
+    height: 100px;
+}
+
+/* Titulo */
+
+header {
+    width: 100%;
+    background-color: #040405;
+}
+
+header h1, header h3 {
+    color: #898187;
+}
+
+.title-brand {
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.title-brand li {
+    list-style-type: none;
+    display: inline;
+    color: #fff;
+    font-size: 24px;
+   
+}
+
+/* Formulario */
+
+.reg-area {
+    margin: 20px 0;  
+    width: 100%;
+    overflow: auto;
+    clear: both;
+    margin-bottom: 20px; 
+}
+
+.form-car {
+    width: 49%;
+    float:left;
+    background: #d1d1d1;
+    
+}
+
+#title-form {
+    background: #1f1b38;
+    margin-bottom: 10px;
+}
+
+#title-form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 0;
+    color: #fff;
+}
+
+input {
+    width: 80%;
+    margin: 0 auto 10px auto;    
+    display: block;
+    padding: 10px 8px;
+    background: #51a3a3;
+    border: 0;
+}
+
+label {
+    display: block;
+    margin-left: 60px;
+    font-size: 18px;
+}
+
+.submit-btn {
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left:40%;
+    padding: 8px 20px;
+    border: none;
+    background: #006494;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.submit-btn:hover {
+    background: #003554;
+    cursor: pointer;
+}
+
+/* Tabela */
+
+.table-car {
+    margin-left: 1%;
+    background: #1f1b38;
+    width: 49%;
+    float: right;   
+    border-collapse: collapse;
+    height: 555px;
+    overflow: auto;
+}
+
+.table-car > h2 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+.table-car tr {
+    color: #fff;
+}
+
+th {
+    width: 25%;
+    padding: 10px;
+}
+
+.table-car td {
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-car tr:nth-child(even) {
+    background: #d1d1d1;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background: #040405;
+}
+
+footer p {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
